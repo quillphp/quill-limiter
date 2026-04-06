@@ -1,0 +1,24 @@
+{
+    "name": "quillphp/limiter",
+    "description": "Quill PHP limiter middleware",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.3",
+        "quillphp/quill": "^0.0.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quill\\Limiter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Quill\\": "../../quill/src/",
+            "Quill\\Limiter\\Tests\\": "tests/"
+        }
+    }
+}
